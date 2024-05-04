@@ -1,17 +1,21 @@
 {
+  
   "name": "note_booth",
+  "description": "# Note_Booth",
   "version": "1.0.0",
-  "description": "## Your Task",
   "main": "index.js",
+  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
   "dependencies": {
     "express": "^4.19.2",
-    "uuid": "^9.0.1"
-  }
+    "fs": "^0.0.1-security",
+    "require": "^2.4.20",
+    "uuidv4": "^6.2.13"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
 }
